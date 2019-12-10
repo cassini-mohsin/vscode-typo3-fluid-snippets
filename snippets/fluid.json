@@ -492,6 +492,16 @@
     ],
     "description": "TYPO3 Fluid | <f:else>"
   },
+  "f:if With <f:then> <f:else>": {
+    "prefix": "ifThenElse",
+    "body": [
+      "<f:if condition=\"{$1}\">",
+      "\t<f:then>$2</f:then>",
+      "\t<f:else>$3</f:else>",
+      "</f:if>"
+    ],
+    "description": "TYPO3 Fluid | <f:if><f:then><f:else>"
+  },
   "f:if Inline": {
     "prefix": "fIfInline",
     "body": [
